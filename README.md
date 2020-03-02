@@ -6,22 +6,27 @@
 |---|---|
 | 5.2 to 5.5  | ^1.0  |
 | 5.6 to 5.8  | ^2.0  |
+| ^6.0  | *  |
 
 ## Installation
 
-To install this package you will need
+To install this package you will need Laravel 5.*
   - Laravel 5.6|5.7|5.8 ([for older versions of laravel](https://github.com/ahsankhatri/wordpress-auth-driver-laravel/tree/v1))
   - PHP 7.1
 
+Laravel 6.*
+  - Laravel 6.1
+  - PHP >= 7.2
+
 The best way to install this package is with the help of composer. Run
 ```
-composer require ahsankhatri/wordpress-auth-provider
+composer require aiyuchen/wordpress-auth-provider
 ```
 
 or install it by adding it to `composer.json` then run `composer update`
 ```
 "require": {
-    "ahsankhatri/wordpress-auth-provider": "^2.0",
+    "aiyuchen/wordpress-auth-provider": "*",
 }
 ```
 
