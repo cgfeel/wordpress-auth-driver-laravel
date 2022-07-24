@@ -1,5 +1,5 @@
 {
-    "name": "aiyuchen/wordpress-auth-provider",
+    "name": "cgfeel/wordpress-auth-provider",
     "description": "A package to provide wordpress users in laravel authentication system.",
     "keywords": ["laravel", "wordpress", "authentication"],
     "type": "library",
@@ -14,7 +14,7 @@
     "require": {
         "php": "^7.1|^8.0",
         "hautelook/phpass": ">=0.3",
-        "laravel/framework": "^5.6|^6.0|^7.0|^8.0"
+        "laravel/framework": "^5.6|^6.0|^7.0|^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
